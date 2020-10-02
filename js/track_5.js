@@ -9,8 +9,6 @@ function onInputChange(event) {
     refs.nameLabel.textContent = event.currentTarget.value;
   } else {
     refs.nameLabel.textContent = 'незнакомец';
-    // console.log(event.currentTarget.value.length);
-    // console.log((refs.nameLabel.textContent = 'незнакомец'));
   }
 }
 console.log(refs.input.value.length);
